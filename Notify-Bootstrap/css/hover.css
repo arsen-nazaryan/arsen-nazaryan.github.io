@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+    /*sprite hover*/
+    .sprite-hover {
+        display: inline-block;
+        position: relative;
+    }
+    .sprite-hover:hover span {
+        opacity: 1;
+    }
+    .sprite-hover span {
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        opacity: 0;
+        -webkit-transition: opacity .6s ease-in-out;
+        -moz-transition:    opacity .6s ease-in-out;
+        -o-transition:      opacity .6s ease-in-out;
+    }
+
+    /*input button hover*/
+    .upd-notify__button:hover{
+        color: #C0C0C0;
+    }
+
+    /*photos__list hover*/
+    a.photos__list-link:hover:before {
+        max-width: 100%;
+    }
+
+    /*footer menu link hover*/
+    ul.menu__link a:hover:before {
+        max-width: 100%;
+    }
+}

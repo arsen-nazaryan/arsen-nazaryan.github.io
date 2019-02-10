@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+    .menu__link:hover,
+    .menu__link-active {
+        border-radius: 10px;
+        background-color: #fc7d7d;
+        transition: background-color 0.4s ease;
+    }
+
+    .btn:hover,
+    .btn-mup:hover {
+        background-color: #e8e8e8;
+        color: #ff5959;
+    }
+}

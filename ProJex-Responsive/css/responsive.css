@@ -1,0 +1,177 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+
+    .services, .news {
+        width: 320px;
+    }
+
+
+    .text-box,
+    .message-box {
+        width: 480px;
+    }
+
+    .message-box {
+        padding-right: 30px;
+    }
+
+    .form-title, .basic-title, .mup, .tel {
+        margin-bottom: 18px;
+    }
+
+    .form-title {
+        margin-bottom: 18px;
+        padding-top: 18px;
+    }
+
+    .services, .news {
+        max-width: 300px;
+    }
+
+    .text-box,
+    .message-box {
+        width: 480px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 750px;
+    }
+
+    .logo, .navigation {
+        float: none;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .logo {
+        padding-bottom: 6px;
+        padding-top: 12px;
+    }
+
+
+    .services, .news {
+        max-width: 100%;
+    }
+
+    .services, .news {
+        display: block;
+        width: 100%;
+    }
+
+    .services.ver-top-box,
+    .news.ver-top-box {
+        margin: 0;
+        padding: 30px 0 30px 0;
+    }
+
+    .news {
+        text-align: center;
+    }
+
+    .line-white, .line-black {
+        margin: 0 auto 25px;
+    }
+
+    .title {
+        padding-top: 30px;
+    }
+
+    .message-box, .info-box {
+        float: none;
+        padding-right: 0;
+    }
+
+    .form-box, .info-box {
+        max-width: 100%;
+    }
+
+    .text-box,
+    .message-box {
+        width: 100%;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+
+    .btn, .btn-mup {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .head-content,
+    .services-section,
+    .news-section,
+    .contact-section {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .menu__item {
+        display: block;
+    }
+
+    .menu__link {
+        width: 100%;
+    }
+
+    .menu__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .menu__item {
+        padding-bottom: 10px;
+    }
+
+    a.menu__link {
+        border: 1px solid rgba(232, 232, 232, .5);
+    }
+
+    .menu__link:hover {
+        background-color: #FF5959;
+        border-radius: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .line-black, .line-white {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .btn, .btn-mup {
+        width: 100%;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+
+    .brack {
+        white-space: pre;
+    }
+
+}
