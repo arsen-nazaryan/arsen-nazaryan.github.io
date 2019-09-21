@@ -1,0 +1,377 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header_bg {
+    min-height: 740px;
+}
+
+.header_bg,
+.bg-slide {
+    background-color: #fcdb00;
+}
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px transparent;
+    -webkit-box-shadow: 0 0 5px transparent;
+    box-shadow: 0 0 5px transparent;
+    border: 5px solid transparent;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.bx-pager {
+    bottom: -50px !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    height: 13px;
+    width: 13px;
+    border-radius: 13px;
+    background-color: #feed80;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background-color: white !important;
+}
+
+.main {
+    min-height: 770px;
+}
+
+.section,
+.footer {
+    background-color: #010101;
+}
+
+.footer {
+    min-height: 310px;
+}
+
+.section {
+    min-height: 460px;
+}
+
+input.upd__email {
+    height: 50px;
+    min-width: 580px;
+    padding: 0 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+form.updates_get {
+    text-align: center;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 125px;
+    font-size: 16px;
+    color: #010101;
+    background-color: #fcdb00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color .5s ease-in,
+    background-color .5s ease-in;
+}
+
+.social {
+    text-align: center;
+    padding: 60px 0;
+}
+
+a.fb {
+    background-position: -30px -30px;
+}
+
+a.tw {
+    background-position: -96px -30px;
+}
+
+a.gp {
+    background-position: -162px -30px;
+}
+
+a.pt {
+    background-position: -227px -30px;
+}
+
+.social a {
+    transition: background-color .6s ease-in-out, opacity .6s ease-in-out;
+    opacity: 1;
+}
+
+.social li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.content_title {
+    font-size: 32px;
+}
+
+.content_store {
+    float: left !important;
+}
+
+.content_store-box {
+    padding-top: 60px;
+    height: 100%;
+    max-width: 400px;
+}
+
+.menu__lists ul li,
+input.upd__email::placeholder,
+.content_store-box p,
+p .features-about,
+.features-items h1,
+.features-items h2{
+    font-family: "PTS-reg", sans-serif;
+}
+
+.content-info {
+    font-size: 20px;
+    color: #313841;
+    padding: 20px 0;
+}
+
+.content-about {
+    font-size: 16px;
+    color: #555555;
+}
+
+.headar__content {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.head-content {
+    padding-bottom: 55px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.head-content {
+    padding-top: 60px;
+}
+
+.navigation {
+    float: right;
+}
+
+.content_pic:after,
+.head-content:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.menu__link,
+.content_title,
+input[type="submit"] {
+    font-family: "PTS-bold", sans-serif;
+}
+
+a.active {
+    text-decoration: underline !important;
+    text-decoration-color: white !important;
+
+}
+
+.menu__link {
+    font-size: 22px;
+    color: #010101;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: color .8s ease-in, background-color .8s ease-in-out;
+}
+
+.store-part_list li {
+    padding: 25px 5px 0 0;
+}
+
+.content_pic {
+    height: 470px;
+    width: 316px;
+    margin-right: 40px;
+    float: right;
+    position: relative;
+}
+
+.content_pic img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.feature p,
+.update-email__updates p {
+    max-width: 745px;
+    padding: 0 0 60px 0 !important;
+    margin: 0 auto;
+}
+
+.feature h1,
+.feature h2,
+.update-email__updates h1,
+.update-email__updates h2{
+    padding: 80px 0 20px 0;
+}
+
+.update-email__updates h1,
+.update-email__updates h2 {
+    color: #fcdb00;
+}
+
+.update-email__updates p {
+    color: #898989;
+}
+
+.features_layers {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.features-items {
+    padding-bottom: 35px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.features-items h1,
+.features-items h2{
+    font-size: 22px;
+    color: #010101;
+    padding-bottom: 15px;
+}
+
+input.upd__email::placeholder,
+p .features-about {
+    font-size: 16px;
+    color: #898989;
+}
+
+.services {
+    padding-bottom: 50px;
+}
+
+.items_res:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80px;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out;
+    transition: opacity .8s ease-in-out;
+}
+
+.items_res:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+
+.menu__lists {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.menu__lists ul li,
+.menu__lists ul li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.responsive .items_res:before {
+    background-position: -14px -158px;
+}
+
+.layered .items_res:before {
+    background-position: -84px -158px;
+}
+
+.awesome .items_res:before {
+    background-position: -160px -158px;
+}
+
+.html .items_res:before {
+    background-position: -28px -228px;
+}
+
+.email .items_res:before {
+    background-position: -96px -232px;
+}
+
+.download .items_res:before {
+    background-position: -160px -228px;
+}
+
+.store_apple,
+.store_android,
+.store_windows {
+    transition: background-color .8s ease-in-out, opacity .8s ease-in-out;
+    opacity: 1;
+}
+
+.store_apple {
+    background-position: -20px -88px;
+}
+
+.store_android {
+    background-position: -82px -88px;
+}
+
+.store_windows {
+    background-position: -150px -88px;
+}
+
+.items_res {
+    text-decoration: none;
+    color: #010101;
+    transition: color .8s ease-in-out;
+}
+
+.items_res:after,
+.items_res:before,
+.sprite-sm {
+    height: 60px;
+    width: 60px;
+}
+
+.sprite-mid {
+    height: 104px;
+    width: 104px;
+}
+
+.sprite-xsm {
+    height: 36px;
+    width: 36px;
+}

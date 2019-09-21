@@ -1,0 +1,164 @@
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content_store-box {
+        max-width: 300px;
+    }
+
+    input.upd__email {
+        min-width: 525px;
+    }
+
+    .features-items {
+        margin-left: 75px;
+    }
+
+    .items_res:after,
+    .items_res:before {
+        left: -70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header_bg {
+        min-height: 420px;
+    }
+
+    .head-content {
+        padding-bottom: 0;
+    }
+
+    .content_pic {
+        display: none;
+    }
+
+    .content_store {
+        float: none !important;
+        text-align: center;
+    }
+
+    .content_store-box {
+        max-width: none;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .menu__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .feature h2, .update-email__updates h2,
+    .feature h1, .update-email__updates h1 {
+        padding: 25px 0 15px 0;
+    }
+
+    .content_title {
+        font-size: 28px;
+    }
+
+    .features_layers {
+        flex-direction: column;
+    }
+
+    .feature p,
+    .update-email__updates p {
+        padding: 0 0 30px 0 !important;
+    }
+
+    .services {
+        padding: 0;
+    }
+
+    input.upd__email {
+        min-width: 350px;
+    }
+
+    .section {
+        min-height: 325px;
+    }
+
+    .social {
+        padding: 30px 0;
+    }
+
+    .footer {
+        min-height: 140px;
+    }
+
+    .menu__lists {
+        padding-top: 0;
+    }
+
+    .bx-controls.bx-has-pager {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .logo {
+        float: none;
+        margin-top: 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    input.upd__email,
+    input[type="submit"] {
+        min-width: 262px;
+        height: 30px;
+        margin: 5px 0;
+        border-radius: 5px;
+    }
+
+    .menu__lists {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .menu__lists ul li a:not(.address) {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid rgba(99, 86, 0, .5);
+    }
+
+    .menu li:not(:last-child)  {
+        border-right: 2px solid rgba(99, 86, 0, .5);
+        border-radius: 0;
+    }
+
+    .navigation {
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    ul.menu li.menu__item {
+        margin-right: 0;
+    }
+
+    .content_store-box {
+        padding-top: 15px;
+    }
+
+    .store-part_list li {
+        padding: 10px 15px 0 0;
+    }
+
+    .content-info {
+        padding: 16px 0;
+    }
+}

@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px) {
+    a.store_apple:hover,
+    a.store_windows:hover,
+    a.store_android:hover {
+        background-color: white;
+        opacity: .8;
+    }
+
+    .social .fb:hover {
+        background-color: #4267B2;
+    }
+
+    .social .tw:hover {
+        background-color: #1DA1F2;
+    }
+
+    .social .gp:hover {
+        background-color: #DD5144;
+    }
+
+    .social .pt:hover {
+        background-color: #CB2027;
+    }
+
+    .social a:hover {
+        opacity: .9;
+    }
+
+    .items_res:hover:after {
+        opacity: 1;
+    }
+
+    input.upd-mails__button[type="submit"]:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .menu__lists ul li a:not(.address):not(.active):hover {
+        color: #fcdb00;
+    }
+
+    .menu__link:hover:not(.active) {
+        color: white;
+        background-color: #010101;
+    }
+
+    .responsive .items_res:hover:after {
+        background-position: -231px -158px;
+    }
+
+    .layered .items_res:hover:after {
+        background-position: -304px -154px;
+    }
+
+    .awesome .items_res:hover:after {
+        background-position: -384px -158px;
+    }
+
+    .html .items_res:hover:after {
+        background-position: -235px -226px;
+    }
+
+    .email .items_res:hover:after {
+        background-position: -312px -225px;
+    }
+
+    .download .items_res:hover:after {
+        background-position: -384px -224px;
+    }
+
+    a.items_res:hover {
+        color: #fcdb00;
+    }
+}
