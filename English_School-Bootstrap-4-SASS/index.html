@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="English School"/>
+    <meta name="keywords" content="English School, English, School"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta property="og:image" content="img/og.jpg"/>
+    <link rel="shortcut icon" href="images/favicon/favicon-32.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/favicon-57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/favicon-72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/favicon-114.png"/>
+    <link rel="stylesheet" href="css/app.css">
+    <title>English School</title>
+</head>
+<body>
+<div class="d-flex flex-column sticky-footer">
+    <header class="head">
+        <div class="navbar-expand-md top_social">
+            <div class="social-content container">
+                <ul class="navbar-nav mr-auto social-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com" rel="nofollow" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com" rel="nofollow" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com" rel="nofollow" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:name@email.com" rel="nofollow">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:+6494461709" rel="nofollow">
+                            <i class="fas fa-phone-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md head_menu">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <svg class="svg-box" width="100" height="55">
+                        <rect class="rect-line" x="0" y="0" fill="none" width="100" height="55"></rect>
+                    </svg>
+                    <img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-content" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cours">Դասընթացներ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Գնացուցակ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reg">Գրանցվել</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">ՀՏՀ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Մեր մասին</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="today p-lr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sbApip0f1TU"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center download">
+                        <h1 class="mb-3 learn">Սովորել <span class="type"></span> սեղմ ժամկետում</h1>
+                        <p>Ստանալ մասնագիտացված անգլերեն վիդեոդասերի նախնական կուրսն անվճար:</p>
+                        <button type="button" class="btn btn-primary btn_down" data-toggle="modal"
+                                data-target="#exampleModal" data-whatever="@getbootstrap">Բեռնել հիմա
+                        </button>
+                        <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content modal-box">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Ստանալ վիդեոդասերի ներբեռնման
+                                            հասցեն</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#" method="get">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Էլ. փոստ*</label>
+                                                <input type="email" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Նշումներ</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                            <div class="modal-footer ">
+                                                <button type="button" class="btn" data-dismiss="modal">Փակել</button>
+                                                <button id="submitBtn" type="submit" class="btn btn-primary btn_down">
+                                                    Ուղարկել
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="flex-fill main_section">
+        <section class="courses " id="cours">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Դասընթացների տեսակները</h5>
+                <article class="curse_type">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="100ms">
+                            <div class="curses_box m-b ">
+                                <h2 class="curses_title"><i class="fas fa-tasks"></i> GENERAL ENGLISH</h2>
+                                <p class="curses_txt">Ընդհանուր անգլերենի վերապատրաստման դասընթացները լավագույն կերպով
+                                    անցկացնելու համար համագործակցում ենք ESOLARM թեստավորման կենտրոնի հետ</p>
+                                <a class="more" href="#">Իմանալ ավելին</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="200ms">
+                            <div class="curses_box m-b">
+                                <h2 class="curses_title"><i class="far fa-edit"></i> SAT</h2>
+                                <p class="curses_txt">Տրամադրում ենք SAT նախապատրաստական դասընթացներ համալսարանական
+                                    ընդունելության ժամանակ անհրաժեշտ խնդիրների լուծման համար:</p>
+                                <a class="more" href="#">Իմանալ ավելին</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="300ms">
+                            <div class="curses_box m-b">
+                                <h2 class="curses_title"><i class="far fa-file-alt"></i> IELTS</h2>
+                                <p class="curses_txt">IELTS-ի վերապատրաստման դասընթացները լավագույնս անցկացնելու համար
+                                    համագործակցում ենք ICLT լեզվուների և վերապատրաստման միջազգային կենտրոնի հետ:</p>
+                                <a class="more card-footer" href="#">Իմանալ ավելին</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 m-b wow bounceInUp" data-wow-delay="400ms">
+                            <div class="curses_box">
+                                <h2 class="curses_title"><i class="fas fa-spell-check"></i> TOEFL iBT</h2>
+                                <p class="curses_txt">Հնարավորություն ենք ընձեռում բոլոր ուսանողներին անգլերեն լեզվի
+                                    իմացությունը հասցնել կատարյալի և դասընթացի վերջում ստանալ վկայական:</p>
+                                <a class="more" href="#">Իմանալ ավելին</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <article class="price-list p-lr pb-4" id="price">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Ծանոթացեք Ջեր ընտրած դասընթացի գնացուցակին</h5>
+                <div class="accordion row" id="accordionPrice">
+                    <div class="col-md-6">
+                        <!--general-->
+                        <div class="card mb-3 wow zoomIn" data-wow-delay="50ms">
+                            <div class="card-header" id="headingGeneral">
+                                <button class="btn collapsed pb-0" type="button" data-toggle="collapse"
+                                        data-target="#collapseGeneral" aria-expanded="false"
+                                        aria-controls="collapseGeneral">
+                                    ԳՆԱՑՈՒՑԱԿ - "GENERAL ENGLISH"
+                                </button>
+                            </div>
+                            <div id="collapseGeneral" class="collapse" aria-labelledby="headingGeneral"
+                                 data-parent="#accordionPrice">
+                                <div class="card-body">
+                                    <ul class="engList">
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Մանկական» 10 դաս ամսական - 15.000&#1423;
+                                        </li>
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Ստանդարտ» 12 դաս ամսական - 15.000&#1423;
+                                        </li>
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Հիմնական» 24 դաս ամսական - 25.000&#1423;
+                                        </li>
+                                        <li><i class="fas fa-check"></i> «Պրո» 36 դաս ամսական - 40.000&#1423;</li>
+                                        <li><i class="fas fa-check"></i> «Խմբակային» 12 դաս ամսական - 12.000&#1423;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--sat-->
+                        <div class="card mb-3 wow zoomIn" data-wow-delay="100ms">
+                            <div class="card-header" id="headingSat">
+                                <button class="btn collapsed pb-0" type="button" data-toggle="collapse"
+                                        data-target="#collapseSat" aria-expanded="false" aria-controls="collapseSat">
+                                    ԳՆԱՑՈՒՑԱԿ - "SAT"
+                                </button>
+                            </div>
+                            <div id="collapseSat" class="collapse" aria-labelledby="headingSat"
+                                 data-parent="#accordionPrice">
+                                <div class="card-body">
+                                    <ul class="engList">
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Ստանդարտ» 10 դաս ամսական - 15.000&#1423;
+                                        </li>
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Հիմնական» 20 դաս ամսական - 25.000&#1423;
+                                        </li>
+                                        <li><i class="fas fa-check"></i> «Պրո» 30 դաս ամսական - 40.000&#1423;</li>
+                                        <li><i class="fas fa-check"></i> «Խմբակային» 12 դաս ամսական - 12.000&#1423;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ielts-->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="150ms">
+                        <div class="card mb-3">
+                            <div class="card-header" id="headingIelts">
+                                <button class="btn collapsed pb-0" type="button" data-toggle="collapse"
+                                        data-target="#collapseIelts" aria-expanded="false"
+                                        aria-controls="collapseIelts">
+                                    ԳՆԱՑՈՒՑԱԿ - "IELTS"
+                                </button>
+                            </div>
+                            <div id="collapseIelts" class="collapse" aria-labelledby="headingIelts"
+                                 data-parent="#accordionPrice">
+                                <div class="card-body">
+                                    <ul class="engList">
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Ստանդարտ» 12 դաս ամսական - 30.000&#1423;
+                                        </li>
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Հիմնական» 24 դաս ամսական - 50.000&#1423;
+                                        </li>
+                                        <li><i class="fas fa-check"></i> «Պրո» 36 դաս ամսական - 70.000&#1423;</li>
+                                        <li><i class="fas fa-check"></i> «Խմբակային» 15 դաս ամսական - 25.000&#1423;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--toefl-->
+                        <div class="card mb-3 wow zoomIn" data-wow-delay="200ms">
+                            <div class="card-header" id="headingToefl">
+                                <button class="btn collapsed pb-0" type="button" data-toggle="collapse"
+                                        data-target="#collapseToefl" aria-expanded="false"
+                                        aria-controls="collapseToefl">
+                                    ԳՆԱՑՈՒՑԱԿ - "TOEFL iBT"
+                                </button>
+                            </div>
+                            <div id="collapseToefl" class="collapse" aria-labelledby="headingToefl"
+                                 data-parent="#accordionPrice">
+                                <div class="card-body">
+                                    <ul class="engList">
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Ստանդարտ» 10 դաս ամսական՝ 25.000&#1423;
+                                        </li>
+                                        <li class="mb-1"><i class="fas fa-check"></i> «Հիմնական» 20 դաս ամսական՝ 45.000&#1423;
+                                        </li>
+                                        <li><i class="fas fa-check"></i> «Պրո» 30 դաս ամսական՝ 55.000&#1423;</li>
+                                        <li><i class="fas fa-check"></i> «Խմբակային» 12 դաս ամսական - 20.000&#1423;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section class="reg-section p-lr wow flipInY" id="reg" data-wow-duration="1s" data-wow-delay="400ms"
+                 data-wow-offset="100">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Գրանցվեք Ձեր նախընտրած դասընթացի համար</h5>
+                <article class="reg_part">
+                    <h6 class="modal-title text-center">(Ձեր նշած հեռախոսահամարին կստանաք հաղորդագրություն)</h6>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="contact-phone mt-4 pt-4">
+                                <address>
+                                    <p class="text-muted mt-4"><span class="font-weight-bold ">Հեռ.`</span><br> <span
+                                            class="d-block mt-2"><i class="fas fa-phone"></i>
+                                <a class="text-muted" href="tel:+37410001122">(010) 00-11-22</a>,
+                                <a class="text-muted" href="tel:+37445001122">(045) 00-11-22</a>
+                            </span></p>
+                                    <p class="text-muted mt-4"><span class="font-weight-bold ">Հասցե.`</span><br> <span
+                                            class="d-block mt-2"><i class="fas fa-map-marker-alt"></i> ք. Երևան, Աբովյան 5շենք, բն.5</span>
+                                    </p>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <form action="#" method="post" id="reg-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input name="name" id="name" type="text" class="form-control"
+                                                   placeholder="Անուն*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input type="tel" id="phone" class="form-control" name="phone"
+                                                   placeholder="Հեռախոսահամար*" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <input name="email" type="email" class="form-control"
+                                                   placeholder="Էլ. փոստ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <select class="custom-select mr-sm-2 form-group" name="training" id="Courses"
+                                                required="">
+                                            <option value="">Ընտրեք դասընթացը*</option>
+                                            <option value="9">GENERAL ENGLISH</option>
+                                            <option value="10">SAT</option>
+                                            <option value="11">IELTS</option>
+                                            <option value="12">TOEFL iBT</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <select class="custom-select mr-sm-2 form-group" name="time" id="types"
+                                                required="">
+                                            <option value="">Ընտրեք դասընթացի փաթեթը*</option>
+                                            <option value="5">«Մանկական»</option>
+                                            <option value="6">«Ստանդարտ»</option>
+                                            <option value="7">Հիմնական</option>
+                                            <option value="8">«Պրո»</option>
+                                            <option value="9">«Խմբակային»</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <select class="custom-select mr-sm-2 form-group" name="time" id="times"
+                                                required="">
+                                            <option value="">Ընտրեք Ձեզ հարմար ժամերը*</option>
+                                            <option value="1">Առավոտյան ժամեր</option>
+                                            <option value="2">Ցերեկային ժամեր</option>
+                                            <option value="3">Երեկոյան ժամեր</option>
+                                            <option value="4">Ցանկացած ժամ</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 text-center">
+                                        <button type="submit" id="submit" class="btn btn-reg">Գրանցվել</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <article class="faq p-lr pb-4" id="faq">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Հաճախ տրվող հարցեր</h5>
+                <div class="question-answer col-lg-7 m-auto">
+                    <ul class="faq-list">
+                        <li>
+                            <details class="faq-details mb-2 wow fadeInLeft" data-wow-delay="50ms">
+                                <summary>Հարց &#8470;1. Ինչ դասընթացներ ունեք</summary>
+                                <p class="answer">Դասընթացների ցանկին կարող եք ծանոթանալ կայքի «ԴԱՍԸՆԹԱՑՆԵՐ» բաժնում</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="faq-details mb-2 wow fadeInRight" data-wow-delay="100ms">
+                                <summary>Հարց &#8470;2. Որտեղ է գտնում Ձեր կենտրոնը</summary>
+                                <p class="answer">Հասցե.` ք. Երևան, Աբովյան 5շենք, բն.5 (նայել ներքևում գտնվող
+                                    քարտեզում)</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="faq-details mb-2 wow fadeInLeft" data-wow-delay="150ms">
+                                <summary>Հարց &#8470;3. Ինչպես պետք է վճարել</summary>
+                                <p class="answer">Դասընթացների համար կարող եք վճարել և կանխիկ և էլեկտրոնային բորոր
+                                    եղանակներով</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="faq-details mb-2 wow fadeInRight" data-wow-delay="200ms">
+                                <summary>Հարց &#8470;4. Տրամադրվում է արդյոք վկայական</summary>
+                                <p class="answer">Բոլոր ուսանողներին դասընթացի ավարտից և տեստավորումից հետո տրամադրվում
+                                    է
+                                    վկայական</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="faq-details mb-2 wow fadeInLeft" data-wow-delay="250ms">
+                                <summary>Հարց &#8470;5. Որ տարիքից կարելի է սովորել Ձեր կենտրոնում</summary>
+                                <p class="answer">10ից - 15 տարեկանների համար ունենք "GENERAL ENGLISH" «Մանկական», իսկ
+                                    մնացած դասընթացները նախատեսված են 15 տարեկանից բարձրերի համար</p>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <!--team-->
+        <section class="about p-lr" id="about">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Մեր մասին</h5>
+                <article class="about_part">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card-deck">
+                                <div class="card mb-3 wow zoomIn" data-wow-delay="100ms">
+                                    <img src="images/ani.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Անի Գրիգորյան</h5>
+                                        <p class="card-text">Հիմնադիր - Տնօրեն</p>
+                                        <p class="card-text">Անգլերենի ուսուցչուհի</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="navbar-expand-md top_social">
+                                            <div class="social-content">
+                                                <ul class="navbar-nav mr-auto social-list">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link team" href="https://www.facebook.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-facebook-square"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link team" href="https://www.linkedin.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link team" href="https://www.youtube.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 wow zoomIn" data-wow-delay="200ms">
+                                    <img src="images/mane.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Մանե Ամիրյան</h5>
+                                        <p class="card-text">Գլխավոր մենեջեր</p>
+                                        <p class="card-text">"TOEFL" ուսուցչուհի</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="navbar-expand-md top_social">
+                                            <div class="social-content">
+                                                <ul class="navbar-nav mr-auto social-list">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.facebook.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-facebook-square"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.skype.com" rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.linkedin.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card-deck">
+                                <div class="card mb-3 wow zoomIn" data-wow-delay="300ms">
+                                    <img src="images/artur.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Արթուր Դարվիլ</h5>
+                                        <p class="card-text">Աշխատակազմի ղեկավար</p>
+                                        <p class="card-text">"SAT & IELTS" ուսուցիչ</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="navbar-expand-md top_social">
+                                            <div class="social-content">
+                                                <ul class="navbar-nav mr-auto social-list">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.facebook.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-facebook-square"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.skype.com" rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.linkedin.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 wow zoomIn" data-wow-delay="400ms">
+                                    <img src="images/nane.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Նանե Զաքյան</h5>
+                                        <p class="card-text">Խորհրդական</p>
+                                        <p class="card-text">Անգլերենի ուսուցչուհի</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="navbar-expand-md top_social">
+                                            <div class="social-content">
+                                                <ul class="navbar-nav mr-auto social-list">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.facebook.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-facebook-square"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.twitter.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-twitter-square"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.linkedin.com"
+                                                           rel="nofollow"
+                                                           target="_blank">
+                                                            <i class="fab fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <article class="map p-lr pb-5">
+            <div class="container">
+                <h5 class="modal-title mb-2 text-center">Մեր հասցեն</h5>
+                <p class="address text-muted text-center">
+                    <i class="fas fa-map-marker-alt"></i> ք. Երևան, Աբովյան 5շենք, բն.5
+                </p>
+                <iframe class="maps  wow bounceInDown" data-wow-delay="200ms" data-wow-duration="1300ms"
+                        data-wow-offset="50"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1263.3330437764944!2d44.51510962007717!3d40.181079005624454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfb4a5aa457%3A0x396c5e5c3a2111c6!2zNSDUsdWi1bjVvtW11aHVttWrINaD1bjVstW41oEsINS11oDWh9Wh1bYgMDAwMSwg1YDVodW11aHVvdW_1aHVtg!5e0!3m2!1shy!2s!4v1570998865061!5m2!1shy!2s"
+                        allowfullscreen=""></iframe>
+            </div>
+        </article>
+    </main>
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <ul class="col-md-6 news news_follow">
+                    <li><a href="#" class="news_follow_link">Աշխատանք</a></li>
+                    <li><a href="#" class="news_follow_link">Նորություններ</a></li>
+                </ul>
+                <ul class="col-md-6 follow news_follow">
+                    <li><a>Հետևեք մեզ՝</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/" class="fb social" target="_blank" rel="nofollow">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" class="twitter social" target="_blank" rel="nofollow">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="instagram social" target="_blank" rel="nofollow">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
