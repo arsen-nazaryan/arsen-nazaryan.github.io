@@ -7660,8 +7660,8 @@ p.including {
     animation: none;
 }
 
-.facebook {
-    background-color: #4267B2;
+.codepen {
+    background-color: #000;
 }
 
 .linkedin {
@@ -7806,7 +7806,7 @@ p.including {
     }
 }
 
-.cc-facebook:hover i {
+.cc-codepen:hover i {
     color: #3b5998;
 }
 
