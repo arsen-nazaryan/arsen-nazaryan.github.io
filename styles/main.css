@@ -2795,11 +2795,12 @@ textarea.form-control:active {
 }
 
 .progress-container .progress .progress-value {
-    position: absolute;
+/*    position: absolute;
     top: 2px;
     right: 0;
     color: #888;
-    font-size: 0.8571em;
+    font-size: 0.8571em;*/
+    display: none;
 }
 
 .progress-container.progress-neutral .progress {
@@ -7707,7 +7708,7 @@ p.including {
 }
 
 .progress-container .progress-bar {
-    height: 5px;
+    height: 8px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transition: -webkit-transform 2s ease-in-out;
@@ -7719,7 +7720,7 @@ p.including {
 }
 
 .progress-container .progress {
-    height: 5px;
+    height: 8px;
     font-size: 18px;
 }
 
@@ -7787,6 +7788,10 @@ p.including {
 
     .cc-reference ol {
         margin-bottom: 0;
+    }
+
+    .cc-experience .cc-experience-header {
+        padding-left: 0;
     }
 }
 
